@@ -24,8 +24,3 @@ for (let i = 0; i <= 10; i++) {
 }
 
 const array = [1, 2, 3, 4];
-
-// for ... of ...
-for (let i of array) {
-  console.log(i);
-}

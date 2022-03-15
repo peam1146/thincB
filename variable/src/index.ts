@@ -38,3 +38,18 @@ let person: Person = {
   name: "Peam",
   age: 18,
 };
+
+const array2 = [1, 2, 3, 4];
+for (let i of array2) {
+  console.log(i);
+}
+
+const car = {
+  color: "red",
+  brand: "BMW",
+  speed: "120km/h",
+};
+
+for (let i in car) {
+  console.log(i);
+}
